@@ -9,19 +9,19 @@ body {
     color: black;
     text-shadow: 2px -1.75px #fff;
 }
-#a1.l1:link {
+#a1:link {
     text-decoration: none;
     color: black;
     text-shadow: 2px -1.75px #fff;
 }
 
-#a1.l1:visited {
+#a1:visited {
     text-decoration: none;
     color: black;
     text-shadow: 2px -1.75px #fff;
 }
 
-#a1.l1:hover {
+#a1:hover {
     font-family: monospace;
     color: #fff;
     text-shadow: 2px -1.75px black;
