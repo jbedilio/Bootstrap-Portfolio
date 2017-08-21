@@ -1,5 +1,6 @@
 body {
-    background: url("../images/backgrounds/pexels-photo copy.jpg") no-repeat center;
+    flex-direction: column;
+    background: url("../images/backgrounds/pexels-photo copy.jpg") repeat-y center;
     background-size: cover;
 }
 
@@ -30,3 +31,9 @@ body {
 .p1 {
     text-shadow: 2px -1.75px #fff;
 }
+
+#hang, #rpg, #tv, #music, #circuit, #metal {
+    box-sizing: border-box;
+    width: 15em;
+}
+
