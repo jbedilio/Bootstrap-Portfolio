@@ -28,6 +28,14 @@ body {
     text-shadow: 2px -1.75px black;
 }
 
+.nameTag {
+    text-shadow: 3px -2px #fff;
+}
+
+.connect, .picHeading {
+    text-shadow: 2px -2px #fff;
+}
+
 .p1 {
     text-shadow: 2px -1.75px #fff;
 }
