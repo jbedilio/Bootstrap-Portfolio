@@ -7,7 +7,7 @@ $('#contact-form').on('submit', e => {
     if (name.val("") || email.val("") || message.val("")) {
         alert('Please enter your name, email, and message.');
     } else {
-        $.post("https://formspree.io/jbedilio@yahoo.com", {data: $(this).serialize()}, 'json');
+        $.post({url: "https://formspree.io/jbedilio@yahoo.com", data: $(this).serialize(), datatype: 'json'});
         $('#inputName').val("");
         $('#inputEmail').val("");
         $('#inputMessage').val("");
